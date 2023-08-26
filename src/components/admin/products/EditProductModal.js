@@ -3,8 +3,8 @@ import { ProductContext } from "./index";
 import { editProduct, getAllProduct } from "./FetchApi";
 import { getAllCategory } from "../categories/FetchApi";
 import ReactQuill from "react-quill";
-const apiURL = process.env.REACT_APP_API_URL;
-
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 const EditProductModal = (props) => {
   const { data, dispatch } = useContext(ProductContext);
 

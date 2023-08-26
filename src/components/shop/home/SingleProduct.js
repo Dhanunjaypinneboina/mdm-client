@@ -5,7 +5,8 @@ import { HomeContext } from "./index";
 import { isWishReq, unWishReq, isWish } from "./Mixins";
 import mdmLogo from "../../../images/mdmLogo.png";
 // import ReactTooltip from "react-tooltip";
-const apiURL = process.env.REACT_APP_API_URL;
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 
 const SingleProduct = (props) => {
   const { data, dispatch } = useContext(HomeContext);

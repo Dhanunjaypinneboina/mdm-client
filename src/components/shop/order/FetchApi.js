@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const apiURL = process.env.REACT_APP_API_URL;
-
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 // export const getBrainTreeToken = async () => {
 //   let uId = JSON.parse(localStorage.getItem("jwt")).user._id;
 //   try {

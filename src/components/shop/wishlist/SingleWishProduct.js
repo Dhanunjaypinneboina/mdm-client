@@ -2,7 +2,8 @@ import React, { Fragment, useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import { wishListProducts } from "./FetchApi";
 // import WishList from "./index";
-const apiURL = process.env.REACT_APP_API_URL;
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 
 const Product = () => {
   const history = useHistory();

@@ -4,7 +4,8 @@ import Layout from "../layout";
 import { productByCategory } from "../../admin/products/FetchApi";
 import { MdOutlineDoubleArrow } from "react-icons/md";
 
-const apiURL = process.env.REACT_APP_API_URL;
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 
 const Submenu = ({ category }) => {
   const history = useHistory();

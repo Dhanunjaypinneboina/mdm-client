@@ -4,7 +4,8 @@ import moment from "moment";
 import { DashboardContext } from "./";
 import { todayAllOrders } from "./Action";
 
-const apiURL = process.env.REACT_APP_API_URL;
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 
 const SellTable = () => {
   const history = useHistory();

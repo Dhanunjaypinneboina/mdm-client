@@ -1,6 +1,6 @@
 import axios from "axios";
-const apiURL = process.env.REACT_APP_API_URL;
-
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 export const DashboardData = async () => {
   try {
     const response = await axios.post(`${apiURL}/api/customize/dashboard-data`);

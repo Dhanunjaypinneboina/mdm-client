@@ -4,7 +4,8 @@ import { HomeContext } from "./";
 import { sliderImages } from "../../admin/dashboardAdmin/Action";
 import Carousel from "react-bootstrap/Carousel";
 
-const apiURL = process.env.REACT_APP_API_URL;
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 
 const Slider = (props) => {
   const { data, dispatch } = useContext(HomeContext);

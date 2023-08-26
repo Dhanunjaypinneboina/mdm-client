@@ -5,7 +5,8 @@ import { relatedProductsByCategory } from "./FetchApi";
 import { ProductDetailsContext } from "./index";
 import { isWishReq, unWishReq, isWish } from "../home/Mixins";
 
-const apiURL = process.env.REACT_APP_API_URL;
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 
 const RelatedProducts = () => {
   let { id } = useParams();

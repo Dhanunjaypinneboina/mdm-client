@@ -1,6 +1,6 @@
 import axios from "axios";
-const apiURL = process.env.REACT_APP_API_URL;
-
+// const apiURL = process.env.REACT_APP_API_URL;
+const apiURL = "https://mdmmernbackend.onrender.com";
 export const getUserById = async (uId) => {
   try {
     let res = await axios.post(`${apiURL}/api/user/signle-user`, { uId });
