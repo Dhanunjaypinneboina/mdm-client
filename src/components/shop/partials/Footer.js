@@ -1,7 +1,7 @@
 import React from "react";
-import moment from "moment";
-import { FaFacebookSquare } from "react-icons/fa";
-import { BsInstagram, BsWhatsapp } from "react-icons/bs";
+// import moment from "moment";
+// import { FaFacebookSquare } from "react-icons/fa";
+// import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import mdmlogo from "../../../images/mdmLogo.png";
 
 const Footer = (props) => {
